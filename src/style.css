@@ -21,3 +21,109 @@ ul {
 }
 
 /* TODO: Add your styles here */
+
+body {
+  background-color: var(--color-background);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body,
+header,
+h1,
+h2,
+p,
+label,
+legend {
+  font-family: var(--font-family);
+  color: var(--color-text);
+}
+
+
+header {
+  text-align: center;
+  /* There are extra pixels between the h1 header and the p tag in the header */
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+ h2 {
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 20px;
+ }
+
+legend, label, header p {
+  font-weight: 550;
+}
+
+form {
+  background-color: var(--color-form-background);
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+}
+
+legend > input{
+  border: 1px solid var(--color-border)
+}
+
+textarea {
+  padding: 10px;
+  min-height: 100px;
+}
+
+button {
+  border: none;
+  background-color: var(--color-primary);
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--color-primary-dark);
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-row .form-field {
+  flex: 1;
+}
+.radio-group {
+  padding: 15px;
+}
+
+.radio-option > input, .checkbox-field > input {
+  margin-right: 8px;
+}
+
+.radio-option {
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  padding: 15px;
+}
+
+.checkbox-field {
+  margin-bottom: 10px;
+}
+
