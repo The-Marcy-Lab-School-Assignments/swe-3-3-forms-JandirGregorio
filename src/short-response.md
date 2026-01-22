@@ -35,3 +35,4 @@ Form data is typically sent to a server (a computer that receives the data and d
 
 **Your Answer:**
 
+To create an account on Amazon.com, you need to provide the required information, such as name, email, and password. Then you press **"Create your Amazon account"** and the information is sent to the data server. The data is stored in their database so you can log in. Then you receive a sort of confirmation. Once your account is created and you log in, you provide your information and it goes through a verification process to see if the information matches. If the information matches, permission is granted. It it doesn't the user sees an error message.
